@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Android Bot</title>
+	<style type="text/css">
+		.container { margin:100px auto; height:200px; width:150px; }
+		.part { background:#78c259; display:inline-block; }
+		.head { border-radius:75px 75px 0 0; height:35%; margin-bottom:5px; position:relative; text-align:center; width:100%; }
+		.antenna { border-radius:10px; display:inline-block; height:60%; margin:-50% 20% 0; width:6%; }		
+		.antenna.left { transform:rotate(-25deg);  }
+		.antenna.right { transform:rotate(25deg);  }
+		.eye { background:#fff; border-radius:50%; display:inline-block; height:20%; margin:10% 15% 0; width:10%; }
+		.body { float:left; height:35%; width:100%; }
+		.hand { border-radius:50px; height:140%; width:25%; }
+		.hand.left { float:left; margin-left:-28%; }
+		.hand.right { float:right; margin-right:-28%; }
+		.body.lower { border-radius: 0 0 25px 25px; height:30%; text-align:center; }
+		.leg { border-radius:50px; display:inline-block; height:175%; margin:0 5% 0; width:25%; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class='part head'>
+			<div class="part antenna left"></div>
+			<div class="part antenna right"></div>
+			<div class="part eye left"></div>
+			<div class="part eye right"></div>
+		</div>
+		<div class='part body upper'>
+			<div class='part hand left'></div>
+			<div class='part hand right'></div>
+		</div>
+		<div class='part body lower'>
+			<div class='part leg left'></div>
+			<div class='part leg right'></div>
+		</div>		
+	</div>
+</body>
+</html>
